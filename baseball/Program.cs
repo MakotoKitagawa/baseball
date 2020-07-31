@@ -60,7 +60,7 @@ namespace baseball
                     if (Offence == 1)
                     {
                         Console.WriteLine("{0}回表",NowInning);
-                        Thread.Sleep(3000);
+                        Thread.Sleep(2000);
 
                         //ここから攻撃
                         Playerbatter.PlayerBatting();
@@ -68,7 +68,7 @@ namespace baseball
                         Console.WriteLine();
 
                         Console.WriteLine("{0}回裏",NowInning);
-                        Thread.Sleep(3000);
+                        Thread.Sleep(2000);
 
                         //ここから守備
                         CPUbatter.CpuBatting();
@@ -78,7 +78,7 @@ namespace baseball
                     else
                     {
                         Console.WriteLine("{0}回表", NowInning);
-                        Thread.Sleep(3000);
+                        Thread.Sleep(2000);
 
                         //ここから守備
                         CPUbatter.CpuBatting();
@@ -86,7 +86,7 @@ namespace baseball
 
 
                         Console.WriteLine("{0}回裏", NowInning);
-                        Thread.Sleep(3000);
+                        Thread.Sleep(2000);
 
                         //ここから攻撃
                         Playerbatter.PlayerBatting();

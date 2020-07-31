@@ -22,7 +22,7 @@ namespace baseball
 
         public void strikeZone()
         {
-            Console.WriteLine("1  2  3\n4  5  6\n7  8  9");
+            Console.WriteLine("1  2  3\n4  5  6\n7  8  9\n   0\n(0はボールor見逃し)");
         }
 
         public void loading()
